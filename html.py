@@ -53,7 +53,7 @@ def download_mm(folder='OOXX'):
 
 
 
-    img_addrs = find_imgs('http://www.jder.net/meizi/108324.html')
+    img_addrs = find_imgs(url)
     save_imgs(folder, img_addrs)
 
 
